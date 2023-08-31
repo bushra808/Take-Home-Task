@@ -1,2 +1,2 @@
 ﻿# Take-Home-Task
-HTML CSS AND JS task for a freelance opportunity
+Random small projects: html, css, and js: (pull and see for yourself)
