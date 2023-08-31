@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linear Equations Solver</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Linear Equations Solver</h1>
+      <form id="equation-form">
+        <div class="form-group">
+          <label for="a1">Equation 1:</label>
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="a1"
+            placeholder="Coefficient of x"
+            required
+          />
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="b1"
+            placeholder="Coefficient of y"
+            required
+          />
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="c1"
+            placeholder="Constant"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="a2">Equation 2:</label>
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="a2"
+            placeholder="Coefficient of x"
+            required
+          />
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="b2"
+            placeholder="Coefficient of y"
+            required
+          />
+          <input
+            type="number"
+            step="any"
+            class="form-control"
+            id="c2"
+            placeholder="Constant"
+            required
+          />
+        </div>
+        <button type="button" id="solve-button" class="btn btn-primary">
+          Solve
+        </button>
+      </form>
+
+      <div id="result" class="mt-4"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.4.0/math.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
